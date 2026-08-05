@@ -1,11 +1,11 @@
-# 行走的艺术
+# Art is everywhere
 
 > **名画中的萌宠，行走的艺术。** 将您的爱宠融入跨越五百年的艺术史，让每一只毛孩子都成为传世名作的主角。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skill Version](https://img.shields.io/badge/version-3.0-blue.svg)](https://github.com/walking-art-team/xing-zou-de-yi-shu)
-[![Paintings](https://img.shields.io/badge/paintings-100-green.svg)](https://github.com/walking-art-team/xing-zou-de-yi-shu)
-[![Platform](https://img.shields.io/badge/platform-Trae%20%7C%20Kimi%20%7C%20Codex%20%7C%20Claude-orange.svg)](https://github.com/walking-art-team/xing-zou-de-yi-shu)
+[![Skill Version](https://img.shields.io/badge/version-3.0-blue.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
+[![Paintings](https://img.shields.io/badge/paintings-100-green.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
+[![Platform](https://img.shields.io/badge/platform-Trae%20%7C%20Kimi%20%7C%20Codex%20%7C%20Claude-orange.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
 
 ---
 
@@ -47,34 +47,52 @@
 
 ---
 
-### 🎯 案例二：《两个弗里达》× 灰虎斑加白猫
+### 🎯 案例二：《星月夜》× 灰虎斑加白猫
 
-> 心碎的双自画像 · 猫咪成为连接两个灵魂的纽带
+> 梵高的旋涡星空 · 猫咪坐在山坡仰望星河
 
-![《两个弗里达》× 灰虎斑猫](output/comparison/20260805_two-fridas_comparison.png)
+![《星月夜》× 灰虎斑猫](output/comparison/20260806_starry-night_comparison.png)
 
 | 字段 | 信息 |
 |------|------|
-| 🎨 **画作** | 《两个弗里达》 *Las Dos Fridas* |
-| 👤 **作者** | 弗里达·卡罗（Frida Kahlo, 1907-1954） |
-| 📅 **创作时间** | 1939 年（与迭戈·里维拉离婚同年） |
-| 🎭 **流派** | 墨西哥超现实主义 / 民俗艺术 |
-| 📍 **现藏地点** | 墨西哥城 · 现代艺术博物馆 |
-| 📐 **原作尺寸** | 173.5 × 173 cm |
-| 🐱 **融合说明** | 猫咪安坐于两位弗里达之间，被两侧双手温柔环抱。暴露双心脏和红色血管动脉从猫咪身后穿过，象征毛孩子成为连接两个灵魂的新纽带 |
+| 🎨 **画作** | 《星月夜》 *The Starry Night* (*De sterrennacht*) |
+| 👤 **作者** | 文森特·威廉·梵高（Vincent Willem van Gogh, 1853-1890） |
+| 📅 **创作时间** | 1889 年 6 月 |
+| 🎭 **流派** | 后印象派 |
+| 📍 **现藏地点** | 美国纽约 · 现代艺术博物馆 |
+| 📐 **原作尺寸** | 73.7 × 92.1 cm |
+| 🐱 **融合说明** | 灰虎斑加白猫坐在前景山坡上，仰头凝望旋涡星空，取代了原画左侧的柏树位置。猫毛的虎斑条纹以梵高式厚涂笔触绘制，与旋涡天空的节奏融为一体。柏树移至右侧，村庄与教堂尖塔保留在山谷中 |
 
 ---
 
-### 🎯 即将支持：更多名画风格预览（按流派）
+### 🎯 案例三：《戴珍珠耳环的少女》× 灰虎斑加白猫
+
+> 荷兰黄金时代 · 猫咪化身"北方蒙娜丽莎"
+
+![《戴珍珠耳环的少女》× 灰虎斑猫](output/comparison/20260806_pearl-earring_comparison.png)
+
+| 字段 | 信息 |
+|------|------|
+| 🎨 **画作** | 《戴珍珠耳环的少女》 *Girl with a Pearl Earring* (*Meisje met de parel*) |
+| 👤 **作者** | 约翰内斯·维米尔（Johannes Vermeer, 1632-1675） |
+| 📅 **创作时间** | 约 1665 年 |
+| 🎭 **流派** | 荷兰黄金时代（Tronie 风格肖像） |
+| 📍 **现藏地点** | 荷兰海牙 · 莫瑞泰斯皇家美术馆 |
+| 📐 **原作尺寸** | 44.5 × 39 cm |
+| 🐱 **融合说明** | 灰虎斑加白猫以四分之三侧面回头凝视观众，完美复刻原画少女的姿态。猫咪头戴蓝金色迷你头巾，左耳处悬挂标志性的水滴形珍珠耳环。柔和光线从左侧照射，白色胸毛如少女的白色衣领般明亮。深色背景与维米尔式晕涂法完美还原 |
+
+---
+
+### 🎯 更多名画风格预览（按流派）
 
 | 风格 | 代表作品 | 适合宠物 |
 |------|---------|---------|
-| 🌅 **印象派** | 《星月夜》《睡莲》《日出·印象》 | 活跃外向的猫/狗 |
-| 🧡 **荷兰黄金时代** | 《戴珍珠耳环的少女》《倒牛奶的女仆》 | 优雅静态的猫 |
-| 🖼️ **现代艺术** | 《记忆的永恒》《格尔尼卡》 | 有个性的奇异宠物 |
+| 🌅 **印象派** | 《睡莲》《日出·印象》《蒙马特街道》 | 活跃外向的猫/狗 |
+| 🖼️ **现代艺术** | 《记忆的永恒》《格尔尼卡》《梦》 | 有个性的奇异宠物 |
 | 🎴 **东方艺术** | 《千里江山图》《神奈川冲浪里》 | 鸟类、兔子、小型宠物 |
 | 🏰 **北方文艺复兴** | 《人间乐园》《巴别塔》 | 群宠、多宠物合璧 |
 | 🗽 **浪漫主义** | 《自由引导人民》《雾海上的漫游者》 | 英勇气质的大型犬 |
+| 💋 **象征主义** | 《吻》（克里姆特）《玩牌者》 | 优雅沉静的猫 |
 
 > 💡 **欢迎上传您的宠物照片**，我们会根据毛孩子的气质为您匹配最适合的名画！
 
@@ -101,7 +119,7 @@ cp -r xing-zou-de-yi-shu/ .trae/skills/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/walking-art-team/xing-zou-de-yi-shu.git
+git clone https://github.com/serenashenn3-art/Art-is-everywhere.git
 
 # 安装依赖
 pip install Pillow
