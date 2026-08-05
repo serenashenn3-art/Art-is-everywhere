@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# 忽略中间产物，保留对比展示图
+output/reference/
+output/generated-art/
