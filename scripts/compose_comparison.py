@@ -122,7 +122,7 @@ def create_comparison(original_path, generated_path, output_path, painting_info)
     else:
         left_label_text = "ORIGINAL MASTERPIECE"
         right_label_text = "PET FUSION ARTWORK"
-        title_text = "Masterpiece Pet Gallery · Walking Art"
+        title_text = "Masterpiece Pet Gallery · Art is everywhere"
         info_title = f'"{painting_info.get("title_original", "")}"  ·  {painting_info.get("title_zh", "")}'
         style_label = f"Style: {painting_info.get('style', '')}  |  Year: {painting_info.get('year', '')}  |  Artist: {painting_info.get('author', '')}"
         credit = "Masterpiece Pet Gallery · Powered by AI"
