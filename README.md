@@ -1,12 +1,12 @@
 # Art is everywhere / 行走的艺术
 
-> **EN:** Turn your pet into the protagonist of a timeless masterpiece. This AI Skill fuses uploaded pet photos with 100 world‑famous paintings across five centuries of art history, producing side‑by‑side comparison artworks (original vs. pet fusion) with accurate metadata (title, artist, year, movement).
+> **EN:** Turn your pet into the protagonist of a timeless masterpiece. This AI Skill fuses uploaded pet photos with 200 world‑famous paintings across five centuries of art history, producing side‑by‑side comparison artworks (original vs. pet fusion) with accurate metadata (title, artist, year, movement).
 >
-> **中文：** 名画中的萌宠，行走的艺术。将您的爱宠融入跨越五百年的艺术史，让每一只毛孩子都成为传世名作的主角。本 AI Skill 将用户上传的宠物照片与 100 幅世界经典名画无缝融合，生成"原画 vs 成图"左右对比图，并附带准确的名画信息（名称、作者、时间、流派）。
+> **中文：** 名画中的萌宠，行走的艺术。将您的爱宠融入跨越五百年的艺术史，让每一只毛孩子都成为传世名作的主角。本 AI Skill 将用户上传的宠物照片与 200 幅世界经典名画无缝融合，生成"原画 vs 成图"左右对比图，并附带准确的名画信息（名称、作者、时间、流派）。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skill Version](https://img.shields.io/badge/version-3.0-blue.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
-[![Paintings](https://img.shields.io/badge/paintings-100-green.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
+[![Skill Version](https://img.shields.io/badge/version-4.0-blue.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
+[![Paintings](https://img.shields.io/badge/paintings-200-green.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
 [![Platform](https://img.shields.io/badge/platform-Trae%20%7C%20Kimi%20%7C%20Codex%20%7C%20Claude-orange.svg)](https://github.com/serenashenn3-art/Art-is-everywhere)
 
 [English](#english) · [中文](#中文)
@@ -176,7 +176,7 @@ xing-zou-de-yi-shu/
 ├── LICENSE                               # MIT License
 ├── .gitignore
 ├── resources/
-│   ├── paintings-database-v2.md          # 100-painting database (16 styles)
+│   ├── paintings-database-v3.md          # 200-painting database (16 styles)
 │   ├── paintings-database.md             # Legacy database (22 paintings)
 │   └── prompt-templates.md               # Prompt templates
 ├── scripts/
@@ -276,15 +276,15 @@ xing-zou-de-yi-shu/
 
 ## 🎨 项目简介
 
-**行走的艺术**（英文名 *Art is everywhere*）是一个 AI Skill，将用户上传的宠物照片与 100 幅世界经典名画无缝融合，生成"宠物成为名画主角"的艺术作品。每幅作品都以**左右对比图**形式呈现（原画参考 vs 成图），并附带准确的名画信息（名称、作者、时间、流派）。
+**行走的艺术**（英文名 *Art is everywhere*）是一个 AI Skill，将用户上传的宠物照片与 200 幅世界经典名画无缝融合，生成"宠物成为名画主角"的艺术作品。每幅作品都以**左右对比图**形式呈现（原画参考 vs 成图），并附带准确的名画信息（名称、作者、时间、流派）。
 
 ### ✨ 核心特性
 
 | 特性 | 说明 |
 |------|------|
-| 🎲 **随机生成** | 系统从100幅名画库中智能匹配随机选取 |
+| 🎲 **随机生成** | 系统从200幅名画库中智能匹配随机选取 |
 | 🎨 **选择名画** | 按16种风格分类浏览，自选心仪名画 |
-| 📊 **100幅名画库** | 覆盖文艺复兴到当代，16大艺术风格 |
+| 📊 **200幅名画库** | 覆盖文艺复兴到当代，16大艺术风格 |
 | 🖼️ **左右对比输出** | 原画参考 + 宠物融合，博物馆画册风格 |
 | 📋 **准确信息标签** | 名称、作者、时间、流派，可追溯可复核 |
 | 📥 **一键下载** | 对比图 + 单独成图，PNG格式 |
@@ -437,7 +437,7 @@ xing-zou-de-yi-shu/
 ├── LICENSE                               # MIT 许可证
 ├── .gitignore
 ├── resources/
-│   ├── paintings-database-v2.md          # 100幅名画数据库（16大风格）
+│   ├── paintings-database-v3.md          # 200幅名画数据库（16大风格）
 │   ├── paintings-database.md             # 旧版名画数据库（22幅）
 │   └── prompt-templates.md               # 提示词模板（6幅专用+通用）
 ├── scripts/
@@ -453,37 +453,37 @@ xing-zou-de-yi-shu/
 
 ---
 
-## 🎴 100幅名画库 · 16大风格
+## 🎴 200幅名画库 · 16大风格
 
-| 编号 | 风格 | 数量 | 代表作品 |
-|------|------|------|---------|
-| 1 | 🎨 文艺复兴 | 10 | 蒙娜丽莎、创造亚当、春 |
-| 2 | 🏛️ 巴洛克 | 8 | 宫娥、夜巡、戴珍珠耳环的少女 |
-| 3 | 🧡 荷兰黄金时代 | 6 | 倒牛奶的女仆、小街 |
-| 4 | 🌅 印象派 | 8 | 星月夜、睡莲、日出·印象 |
-| 5 | 🌀 后印象派 | 4 | 呐喊、红磨坊 |
-| 6 | 🖼️ 现代艺术 | 8 | 两个弗里达、格尔尼卡、梦 |
-| 7 | 🎴 东方艺术 | 6 | 神奈川冲浪里、清明上河图 |
-| 8 | 🏰 北方文艺复兴 | 5 | 最后的晚餐、人间乐园、巴别塔 |
-| 9 | 🗽 浪漫主义与新古典 | 8 | 自由引导人民、马拉之死 |
-| 10 | 🌾 现实主义 | 4 | 拾穗者、奥南的葬礼 |
-| 11 | 💋 象征主义与分离派 | 5 | 吻（克里姆特）、玩牌者 |
-| 12 | 🔮 超现实主义扩展 | 4 | 人类之子、内战的预兆 |
-| 13 | 🔶 抽象与当代 | 6 | 构图VIII、气球狗 |
-| 14 | 🏮 中国艺术扩展 | 6 | 溪山行旅图、千里江山图 |
-| 15 | ⛩️ 日本艺术扩展 | 4 | 龟户梅屋铺、山下白雨 |
-| 16 | 🎭 更多经典补充 | 8 | 最后的审判、西斯廷圣母 |
+| 编号 | 风格 | 数量 | 编号范围 | 代表作品 |
+|------|------|------|---------|---------|
+| 1 | 🎨 文艺复兴 | 20 | #1-20 | 蒙娜丽莎、创造亚当、春、最后的审判、西斯廷圣母 |
+| 2 | 🏛️ 巴洛克 | 16 | #21-36 | 宫娥、夜巡、戴珍珠耳环、圣马太蒙召、基督下葬 |
+| 3 | 🧡 荷兰黄金时代 | 12 | #37-48 | 倒牛奶的女仆、小街、下十字架(维登版) |
+| 4 | 🌅 印象派 | 16 | #49-64 | 星月夜、睡莲、日出·印象、吻(克里姆特)、玩牌者 |
+| 5 | 🌀 后印象派 | 10 | #65-74 | 呐喊、红磨坊、拥抱(席勒)、女人三阶段 |
+| 6 | 🖼️ 现代艺术 | 14 | #75-88 | 两个弗里达、格尔尼卡、人类之子、哈里昆的嘉年华 |
+| 7 | 🎴 东方艺术 | 12 | #89-100 | 神奈川冲浪里、清明上河图、墨竹图 |
+| 8 | 🏰 北方文艺复兴 | 11 | #101-111 | 最后的晚餐、雅典学院、人间乐园、四使徒 |
+| 9 | 🗽 浪漫主义与新古典 | 16 | #112-127 | 自由引导人民、马拉之死、土耳其浴女、奴隶船 |
+| 10 | 🌾 现实主义 | 9 | #128-136 | 拾穗者、奥南的葬礼、晚钟、画室、草地上的午餐 |
+| 11 | 💋 象征主义与分离派 | 10 | #137-146 | 独角兽、死之岛、独眼巨人、拥抱 |
+| 12 | 🔮 超现实主义扩展 | 9 | #147-155 | 西里伯斯大象、戈尔孔达、天鹅倒影大象 |
+| 13 | 🔶 抽象与当代 | 10 | #156-165 | 秋之韵律(波洛克)、十字架之站、溺水的女孩、无题骷髅 |
+| 14 | 🏮 中国艺术扩展 | 12 | #166-177 | 溪山行旅图、千里江山图、奔马图、竹石图 |
+| 15 | ⛩️ 日本艺术扩展 | 9 | #178-186 | 龟户梅屋铺、妇人相学十体、相马旧王城、回首的美人 |
+| 16 | 🎭 更多经典补充 | 14 | #187-200 | 哀悼基督(乔托版)、圣三位一体、众神之宴 |
 
 ---
 
 ## 🐾 宠物适配推荐
 
-| 宠物类型 | TOP 5 推荐 |
+| 宠物类型 | TOP 8 推荐 |
 |---------|-----------|
-| 🐱 猫咪 | #11宫娥 · #37两个弗里达 · #20格列柯 · #19胖男孩 · #13戴珍珠耳环 |
-| 🐕 狗狗 | #12夜巡 · #29大碗岛 · #25星月夜 · #27睡莲 · #33呐喊 |
-| 🐇 兔/小宠 | #3春 · #26向日葵 · #27睡莲 · #13戴珍珠耳环 · #1蒙娜丽莎 |
-| 🦜 鸟类 | #25星月夜 · #47神奈川冲浪 · #46富春山居 · #48凯风快晴 · #3春 |
+| 🐱 猫咪 | #21宫娥 · #75两个弗里达 · #38埃尔格列柯 · #37胖男孩 · #23戴珍珠耳环 · #147人类之子 · #1蒙娜丽莎 · #145拥抱 |
+| 🐕 狗狗 | #22夜巡 · #53大碗岛 · #49星月夜 · #51睡莲 · #65呐喊 · #119干草车 · #118雾海漫游者 · #105阿尔诺芬尼 |
+| 🐇 兔/小宠 | #3春 · #50向日葵 · #51睡莲 · #23戴珍珠耳环 · #1蒙娜丽莎 · #103人间乐园 · #169千里江山图 · #170五牛图 |
+| 🦜 鸟类 | #49星月夜 · #91神奈川冲浪 · #90富春山居 · #92凯风快晴 · #3春 · #142独角兽 · #93大桥骤雨 · #178龟户梅屋铺 |
 
 ---
 
@@ -527,7 +527,7 @@ xing-zou-de-yi-shu/
 
 ## 🙏 致谢
 
-- 100幅名画数据基于公共领域艺术史资料整理
+- 200幅名画数据基于公共领域艺术史资料整理
 - 所有名画信息（作者、时间、藏地）均来自博物馆官方公开数据
 - 生成的艺术作品仅供娱乐和个人使用，不代表原作
 
