@@ -7,22 +7,41 @@
 ## 通用模板结构
 
 ```
-[GENERATION PURPOSE]: Create a masterpiece artwork that seamlessly blends a pet with a famous classical painting.
+[GENERATION PURPOSE]: Create a masterpiece artwork that seamlessly blends a pet with a famous classical painting. The pet MUST be rendered in the painting's style — never photorealistic overlay.
 
 [SCENE DESCRIPTION]: {详细描述画中场景，宠物的位置、姿态，与名画元素的互动}
 
-[PAINTING STYLE]: {画作风格、画派、笔触特征、色彩基调}
+[PAINTING STYLE]: {画作风格、画派、笔触特征、色彩基调、光源方向}
 
-[PET DESCRIPTION]: Referencing the uploaded pet photo: {宠物品种、颜色、特征}，placed naturally in the scene with matching lighting, perspective, and shadow.
+[PET DESCRIPTION]: Referencing the uploaded pet photo, render the pet with the following EXACT features (do NOT omit any):
+- Species & breed: {petType + breed}
+- Base fur color: {baseColor, 具体颜色名如 charcoal gray / tawny orange}
+- Secondary fur color: {secondaryColor, 如 cream white}
+- Pattern type: {patternType, 如 classic tabby / solid / tortoiseshell}
+- Pattern distribution: {patternDistribution, 精确到部位, 如 "dark stripes on back and flanks, white 'gloves' on all four paws, white V-shape on chest"}
+- Eye color: {eyeColor, 如 yellowish-green}
+- Eye shape: {eyeShape, 如 round / almond}
+- Nose color: {noseColor, 如 pink}
+- Ear shape: {earShape, 如 pointed upright}
+- Build: {build, 如 medium-plump}
+- Fur length: {furLength, 如 short-haired}
+- Fur texture: {furTexture, 如 dense plush}
+- Distinctive marks: {distinctiveMarks, 如 "white tail tip / heterochromia / notched left ear" — if none, write "none"}
+- Facial expression: {facialExpression, 如 calm enigmatic}
 
-[KEY ELEMENTS TO PRESERVE]: {必须保留的名画标志性元素列表}
+CRITICAL: The pet's fur MUST be rendered with the SAME brushwork technique as the painting ({画家的笔触特征, 如 sfumato / impasto / glazing}). The pet is placed naturally in the scene with matching lighting direction, perspective, and shadow. NO photographic sharpness — the pet must look PAINTED, not pasted.
+
+[KEY ELEMENTS TO PRESERVE]: {必须保留的名画标志性元素列表, 3-5 项}
 
 [QUALITY CONSTRAINTS]: 
 - Oil painting texture, museum-quality masterpiece
-- Perfect color harmony between pet and painting
-- No digital cutout edges, natural blending
+- Pet fur rendered in the painting's brushwork style (NOT photorealistic)
+- Perfect color harmony between pet and painting — no color shift on pet
+- Pet lighting matches painting's light source EXACTLY (same direction, same warmth)
+- No digital cutout edges — pet fully integrated into the painted scene
+- Anatomically correct pet (no extra eyes/limbs, no distorted face)
+- All distinctive marks preserved (white gloves, tail tip, etc.)
 - Consistent light source direction
-- Realistic fur texture matching painting's brushwork
 - High resolution, fine details
 - Style: museum artwork, classical fine art
 ```
